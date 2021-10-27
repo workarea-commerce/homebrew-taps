@@ -6,8 +6,6 @@ class Workareactl < Formula
   url "https://github.com/workarea-commerce/homebrew-taps/releases/download/1.2.2/workareactl-1.2.2.tar.gz"
   sha256 "4f7da40c20c4ac27edbb0aec0d817966443b8b7e9dcfb5721a6c6c238809974e"
 
-  bottle :unneeded
-
   def install
     host_os = RbConfig::CONFIG["host_os"]
     os =
